@@ -12,12 +12,12 @@ plugins {
 
 android {
     namespace = "com.example.orderapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.orderapp"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -80,5 +80,6 @@ dependencies {
     implementation(libs.bundles.hilt)
     implementation(libs.bundles.room)
 
+    implementation (libs.kotlinx.serialization.json)
 
 }
